@@ -109,7 +109,7 @@ stdenv.mkDerivation (rec {
 
   src = fetchurl {
     url = "https://s3.ap-south-1.amazonaws.com/downloads.portal.composewell.com/ghc/ghc-8.8.4-1-x86_64-unknown-linux.tar.xz";
-    sha256 = "157zj5qln49kjsfb4s3lpqvln0f0yvpxbrlnh1cawfj986g4w6h3";
+    sha256 = "0bgwbxxvdn56l91bp9p5d083gzcfdi6z8l8b17qzjpr3n8w5wl7h";
   };
 
   enableParallelBuilding = true;
