@@ -108,7 +108,7 @@ stdenv.mkDerivation (rec {
   name = "${targetPrefix}ghc-${version}";
 
   src = fetchurl {
-    url = "https://s3.ap-south-1.amazonaws.com/downloads.portal.composewell.com/ghc/ghc-8.8.4-1-x86_64-unknown-linux.tar.xz";
+    url = "https://gitlab.haskell.org/harendra/ghc/-/archive/eventlog-enhancements/ghc-eventlog-enhancements.tar.gz";
     sha256 = "0bgwbxxvdn56l91bp9p5d083gzcfdi6z8l8b17qzjpr3n8w5wl7h";
   };
 
